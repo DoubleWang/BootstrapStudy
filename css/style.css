@@ -26,3 +26,9 @@ body, input, textarea, select, button {
 .carousel-inner{
 	height: 260px;
 }
+.span4 ul li{
+	list-style: none;
+}
+ul{
+	margin:0;
+}
