@@ -1,0 +1,28 @@
+body, input, textarea, select, button {
+	font-family: "Arial", "Microsoft YaHei", "Tahoma";
+}
+
+.navbar .brand, .navbar .nav>li>a {
+	color: #fff;
+}
+.navbar .brand {
+	font-weight: 900;
+}
+.img-rounded{
+	margin-top: 60px;
+}
+/* #myCarousel{
+	margin-left:250px ; 
+	margin-top: 15px;
+} */
+.carousel-inner img{
+	/* width: 100%; */
+	
+}
+
+.row {
+	margin-top: 20px;
+}
+.carousel-inner{
+	height: 260px;
+}

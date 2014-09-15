@@ -1,13 +1,101 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Bootstrap</title>
- 	
-</head>
-<body>
-	<div class="container"></div>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Bootstrap</title>
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
+    <body role="document">
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+                    <a class="brand" href="javascript:;">武汉安庆商会</a>
+                    <div class="nav-collapse collapse">
+                        <ul class="nav">
+                            <li class="">
+                                <a href="javascript:;">关于商会</a>
+                            </li>
+                            <li class="">
+                                <a href="javascript:;">招商引资</a>
+                            </li>
+                            <li class="">
+                                <a href="javascript:;">商会服务</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">关于商会</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <form class="navbar-form pull-right">
+                        <input type="text" class="span2">
+                        <input type="text" class="span2">
+                        <button type="button" class="btn btn-success">登录</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="container theme-showcase" role="main">
+            <div class="jumbotron banner hidden-xs">
+                <img class="img-rounded" src="http://www.whaqc.com/wp-content/uploads/2014/07/top2.jpg" alt="安庆商会">
+            </div>
+            <div class="row">
+                <div class="span3">
+                    <div id="myCarousel" class="carousel slide">
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                        </ol>
+                        <!-- Carousel items -->
+                        <div class="carousel-inner">
+                            <div class="active item">
+                            	<a href="javascript:;">
+                            		<img src="../imgs/mmexport1406791723946.jpg" alt="slide one">
+                            	</a>
+                            </div>
+                            <div class="item">
+                            	<a href="javascript:;">
+                            		<img src="../imgs/20140904_120404.jpg" alt="slide two">
+                            	</a>
+                            </div>
+                            <div class="item">
+                            	<a href="javascript:;">
+                            		<img src="../imgs/mmexport1406791723946.jpg" alt="slide three">
+                            	</a>
+                        	</div>
+                        	<div class="item">
+                            	<a href="javascript:;">
+                            		<img src="../imgs/ppt11.jpg" alt="slide four">
+                            	</a>
+                        	</div>
+                        </div>
+                        <!-- Carousel nav 
+                        <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+                        <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>-->
+                    </div>
+                </div>
+                <div class="span6">
+                    <div class="active">
+                        <h4><a href=""javascript:;"">共建合作平台 探讨发展之路</a></h4>
+                        <p>昨日，安庆商会与新华网湖北频道在新华沙龙里召开了一次关于共建合作平台的座谈会。中共湖北省委统一战线工作部副部长李东明，新华网湖北频道主任、安庆商会副会长汪如扁，安庆商会执行会长丰书和、尹圣景等人参加了这次会议。 新华网湖北平台是新华网在湖北省全面运营网络等新媒体业务的综合支撑平台；拥有国家通讯社独一无二的政府资源；同时也与湖北省各行业主管部门建立了全面战略合作。所以，如今安庆商会也能站上这个平台展现徽商风采着实是一件很光荣而又具有挑战性的一件事情。会议上面，大家围绕合作平台如何建设相继提出了自己的观点。执行会长丰书和同志说道，面对这个平台，对于我们安庆商会来说其实是一把双刃剑，有弊也有利。所以，作为徽商的我们也要心中坦荡荡地做好每一件事情，为安庆商会争光夺耀！</p>
+                    </div>
+                </div>
+                <div class="span3">
+                    <div class="title">
+                        <h4>安庆商会会长方兴余</h4>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
